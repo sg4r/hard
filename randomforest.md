@@ -29,3 +29,34 @@ weighted avg       0.87      0.87      0.86      2671
    macro avg       0.93      0.92      0.92      2671
 weighted avg       0.93      0.93      0.93      2671
 ```
+# avec une normallisation des données x,y,z
+## classification_report pour x uniquement
+```
+              precision    recall  f1-score   support
+
+        bike       0.92      0.82      0.87       409
+         sit       1.00      1.00      1.00       505
+  stairsdown       0.71      0.58      0.64       367
+    stairsup       0.74      0.79      0.76       434
+       stand       0.97      0.96      0.97       446
+        walk       0.81      0.94      0.87       510
+
+    accuracy                           0.86      2671
+   macro avg       0.86      0.85      0.85      2671
+weighted avg       0.86      0.86      0.86      2671
+```
+## classification_report pour x,y,z
+```
+              precision    recall  f1-score   support
+
+        bike       0.93      0.94      0.93       409
+         sit       1.00      1.00      1.00       505
+  stairsdown       0.88      0.79      0.83       367
+    stairsup       0.82      0.88      0.84       434
+       stand       0.99      0.98      0.99       446
+        walk       0.94      0.94      0.94       510
+
+    accuracy                           0.93      2671
+   macro avg       0.92      0.92      0.92      2671
+weighted avg       0.93      0.93      0.93      2671
+```
