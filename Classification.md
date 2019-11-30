@@ -95,4 +95,21 @@ weighted avg       0.91      0.90      0.90      6584
 weighted avg       0.90      0.90      0.90    263360
 
 ```
+## conv1D et Vnet
 
+```
+--- Classification report for test data ---
+
+              precision    recall  f1-score   support
+
+           0       0.66      0.69      0.68     25994
+           1       1.00      0.91      0.95     79525
+           2       0.82      0.99      0.90     18007
+           3       0.93      0.74      0.83     14875
+           4       0.86      0.71      0.78     29071
+           5       0.88      0.98      0.93     95888
+
+    accuracy                           0.89    263360
+   macro avg       0.86      0.84      0.84    263360
+weighted avg       0.89      0.89      0.89    263360
+```
