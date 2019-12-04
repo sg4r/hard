@@ -115,6 +115,7 @@ weighted avg       0.89      0.89      0.89    263360
 ```
 
 ## conv1D, windows=180, 20% recovery
+```
 --- Classification report for test data ---
 
               precision    recall  f1-score   support
@@ -129,3 +130,4 @@ weighted avg       0.89      0.89      0.89    263360
     accuracy                           0.94      2194
    macro avg       0.90      0.90      0.90      2194
 weighted avg       0.94      0.94      0.94      2194
+```
